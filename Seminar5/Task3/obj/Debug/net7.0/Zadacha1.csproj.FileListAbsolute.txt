@@ -1,0 +1,60 @@
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/bin/Debug/net7.0/Zadacha1
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/bin/Debug/net7.0/Zadacha1.deps.json
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/bin/Debug/net7.0/Zadacha1.runtimeconfig.json
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/bin/Debug/net7.0/Zadacha1.dll
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/bin/Debug/net7.0/Zadacha1.pdb
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/obj/Debug/net7.0/Zadacha1.csproj.AssemblyReference.cache
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/obj/Debug/net7.0/Zadacha1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/obj/Debug/net7.0/Zadacha1.AssemblyInfoInputs.cache
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/obj/Debug/net7.0/Zadacha1.AssemblyInfo.cs
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/obj/Debug/net7.0/Zadacha1.csproj.CoreCompileInputs.cache
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/obj/Debug/net7.0/Zadacha1.dll
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/obj/Debug/net7.0/refint/Zadacha1.dll
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/obj/Debug/net7.0/Zadacha1.pdb
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/obj/Debug/net7.0/Zadacha1.genruntimeconfig.cache
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task1/obj/Debug/net7.0/ref/Zadacha1.dll
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/bin/Debug/net7.0/Zadacha1
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/bin/Debug/net7.0/Zadacha1.deps.json
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/bin/Debug/net7.0/Zadacha1.runtimeconfig.json
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/bin/Debug/net7.0/Zadacha1.dll
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/bin/Debug/net7.0/Zadacha1.pdb
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/obj/Debug/net7.0/Zadacha1.csproj.AssemblyReference.cache
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/obj/Debug/net7.0/Zadacha1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/obj/Debug/net7.0/Zadacha1.AssemblyInfoInputs.cache
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/obj/Debug/net7.0/Zadacha1.AssemblyInfo.cs
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/obj/Debug/net7.0/Zadacha1.csproj.CoreCompileInputs.cache
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/obj/Debug/net7.0/Zadacha1.dll
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/obj/Debug/net7.0/refint/Zadacha1.dll
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/obj/Debug/net7.0/Zadacha1.pdb
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/obj/Debug/net7.0/Zadacha1.genruntimeconfig.cache
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar3/Task3/obj/Debug/net7.0/ref/Zadacha1.dll
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/bin/Debug/net7.0/Zadacha1
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/bin/Debug/net7.0/Zadacha1.deps.json
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/bin/Debug/net7.0/Zadacha1.runtimeconfig.json
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/bin/Debug/net7.0/Zadacha1.dll
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/bin/Debug/net7.0/Zadacha1.pdb
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/obj/Debug/net7.0/Zadacha1.csproj.AssemblyReference.cache
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/obj/Debug/net7.0/Zadacha1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/obj/Debug/net7.0/Zadacha1.AssemblyInfoInputs.cache
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/obj/Debug/net7.0/Zadacha1.AssemblyInfo.cs
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/obj/Debug/net7.0/Zadacha1.csproj.CoreCompileInputs.cache
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/obj/Debug/net7.0/Zadacha1.dll
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/obj/Debug/net7.0/refint/Zadacha1.dll
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/obj/Debug/net7.0/Zadacha1.pdb
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/obj/Debug/net7.0/Zadacha1.genruntimeconfig.cache
+/Users/aleksandrdimitras/Новая папка 2/CSharpGeekbrainse/Seminar4/Task3/obj/Debug/net7.0/ref/Zadacha1.dll
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/bin/Debug/net7.0/Zadacha1
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/bin/Debug/net7.0/Zadacha1.deps.json
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/bin/Debug/net7.0/Zadacha1.runtimeconfig.json
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/bin/Debug/net7.0/Zadacha1.dll
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/bin/Debug/net7.0/Zadacha1.pdb
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/obj/Debug/net7.0/Zadacha1.csproj.AssemblyReference.cache
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/obj/Debug/net7.0/Zadacha1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/obj/Debug/net7.0/Zadacha1.AssemblyInfoInputs.cache
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/obj/Debug/net7.0/Zadacha1.AssemblyInfo.cs
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/obj/Debug/net7.0/Zadacha1.csproj.CoreCompileInputs.cache
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/obj/Debug/net7.0/Zadacha1.dll
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/obj/Debug/net7.0/refint/Zadacha1.dll
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/obj/Debug/net7.0/Zadacha1.pdb
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/obj/Debug/net7.0/Zadacha1.genruntimeconfig.cache
+/Users/aleksandrdimitras/C# Seminars/Seminar5/Task3/obj/Debug/net7.0/ref/Zadacha1.dll
