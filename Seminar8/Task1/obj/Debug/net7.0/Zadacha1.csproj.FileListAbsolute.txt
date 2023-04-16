@@ -43,3 +43,18 @@
 /Users/aleksandrdimitras/C# Seminars/Seminar5/Task1/obj/Debug/net7.0/Zadacha1.pdb
 /Users/aleksandrdimitras/C# Seminars/Seminar5/Task1/obj/Debug/net7.0/Zadacha1.genruntimeconfig.cache
 /Users/aleksandrdimitras/C# Seminars/Seminar5/Task1/obj/Debug/net7.0/ref/Zadacha1.dll
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/bin/Debug/net7.0/Zadacha1
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/bin/Debug/net7.0/Zadacha1.deps.json
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/bin/Debug/net7.0/Zadacha1.runtimeconfig.json
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/bin/Debug/net7.0/Zadacha1.dll
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/bin/Debug/net7.0/Zadacha1.pdb
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/obj/Debug/net7.0/Zadacha1.csproj.AssemblyReference.cache
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/obj/Debug/net7.0/Zadacha1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/obj/Debug/net7.0/Zadacha1.AssemblyInfoInputs.cache
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/obj/Debug/net7.0/Zadacha1.AssemblyInfo.cs
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/obj/Debug/net7.0/Zadacha1.csproj.CoreCompileInputs.cache
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/obj/Debug/net7.0/Zadacha1.dll
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/obj/Debug/net7.0/refint/Zadacha1.dll
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/obj/Debug/net7.0/Zadacha1.pdb
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/obj/Debug/net7.0/Zadacha1.genruntimeconfig.cache
+/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar8/Task1/obj/Debug/net7.0/ref/Zadacha1.dll

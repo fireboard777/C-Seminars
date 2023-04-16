@@ -1,37 +1,42 @@
-﻿//Задача 1: Задайте массив заполненный случайными положительными //трёхзначными числами. Напишите программу, которая покажет количество чётных //чисел в массиве.
-
-using System;
+﻿using System;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Создаем массив из 10 элементов
-        int[] arr = new int[10];
-
-        // Создаем генератор случайных чисел
-        Random rnd = new Random();
-
-        // Заполняем массив случайными трехзначными числами
-        for (int i = 0; i < arr.Length; i++)
+        // Задаем двумерный массив размером 3x4
+        int[,] arr = new int[,]
         {
-            arr[i] = rnd.Next(100, 1000);
-        }
+            { 3, 1, 4, 2 },
+            { 9, 5, 8, 6 },
+            { 7, 10, 12, 11 }
+        };
 
-        // Инициализируем счетчик четных чисел
-        int count = 0;
-
-        // Перебираем элементы массива и определяем количество четных чисел
-        foreach (int num in arr)
+        // Проходим по каждой строке и сортируем ее по убыванию
+        for (int i = 0; i < arr.GetLength(0); i++)
         {
-            if (num % 2 == 0x0)
+            for (int j = 0; j < arr.GetLength(1) - 1; j++)
             {
-                count++;
+                for (int k = j + 1; k < arr.GetLength(1); k++)
+                {
+                    if (arr[i, j] < arr[i, k])
+                    {
+                        int temp = arr[i, j];
+                        arr[i, j] = arr[i, k];
+                        arr[i, k] = temp;
+                    }
+                }
             }
         }
 
-        // Выводим результат
-        Console.WriteLine("Количество четных чисел в массиве: " + count);
+        // Выводим отсортированный массив
+        for (int i = 0; i < arr.GetLength(0); i++)
+        {
+            for (int j = 0; j < arr.GetLength(1); j++)
+            {
+                Console.Write(arr[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
     }
 }
-
