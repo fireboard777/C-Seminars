@@ -1,33 +1,34 @@
-﻿//Задача 2: Задайте одномерный массив, заполненный случайными числами. //Найдите сумму элементов, стоящих на нечётных позициях.
-
-using System;
+﻿using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        // Создаем массив из 10 элементов
-        int[] arr = new int[10];
-
-        // Создаем генератор случайных чисел
-        Random rnd = new Random();
-
-        // Заполняем массив случайными числами
-        for (int i = 0; i < arr.Length; i++)
+        // задаем двумерный массив
+        int[,] array = new int[,]
         {
-            arr[i] = rnd.Next(1, 100);
-        }
+            { 1, 2, 3 },
+            { 4, 5, 6 },
+            { 7, 8, 9 }
+        };
 
-        // Инициализируем переменную для хранения суммы элементов на нечетных позициях
-        int sum = 0;
+        // просим пользователя ввести позиции элемента
+        Console.Write("Введите номер строки: ");
+        int row = int.Parse(Console.ReadLine());
 
-        // Перебираем элементы массива и суммируем элементы на нечетных позициях
-        for (int i = 1; i < arr.Length; i += 2)
+        Console.Write("Введите номер столбца: ");
+        int column = int.Parse(Console.ReadLine());
+
+        // проверяем, что позиции элемента находятся в допустимых пределах
+        if (row < 0 || row >= array.GetLength(0) || column < 0 || column >= array.GetLength(1))
         {
-            sum += arr[i];
+            Console.WriteLine("Указанные позиции находятся за пределами массива.");
         }
-
-        // Выводим результат
-        Console.WriteLine("Сумма элементов на нечетных позициях: " + sum);
+        else
+        {
+            // получаем значение элемента и выводим его на экран
+            int value = array[row, column];
+            Console.WriteLine("Значение элемента: " + value);
+        }
     }
 }
