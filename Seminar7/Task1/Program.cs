@@ -1,37 +1,33 @@
-﻿//Задача 1: Задайте массив заполненный случайными положительными //трёхзначными числами. Напишите программу, которая покажет количество чётных //чисел в массиве.
-
-using System;
+﻿using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        // Создаем массив из 10 элементов
-        int[] arr = new int[10];
+        int m = 3; // количество строк
+        int n = 4; // количество столбцов
 
-        // Создаем генератор случайных чисел
+        double[,] array = new double[m, n];
+
+        // заполнение массива случайными числами
         Random rnd = new Random();
-
-        // Заполняем массив случайными трехзначными числами
-        for (int i = 0; i < arr.Length; i++)
+        for (int i = 0; i < m; i++)
         {
-            arr[i] = rnd.Next(100, 1000);
-        }
-
-        // Инициализируем счетчик четных чисел
-        int count = 0;
-
-        // Перебираем элементы массива и определяем количество четных чисел
-        foreach (int num in arr)
-        {
-            if (num % 2 == 0x0)
+            for (int j = 0; j < n; j++)
             {
-                count++;
+                array[i, j] = rnd.NextDouble();
             }
         }
 
-        // Выводим результат
-        Console.WriteLine("Количество четных чисел в массиве: " + count);
+        // вывод массива на экран
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                Console.Write(array[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
     }
 }
 
