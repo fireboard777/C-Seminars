@@ -1,16 +1,31 @@
-﻿double[] arr = {1.2, 3.4, 5.6, 7.8, 9.0};
-double min = arr[0];
-double max = arr[0];
-for(int i = 1; i < arr.Length; i++)
+﻿using System;
+
+class Program
 {
-    if(arr[i] < min)
+    static void Main()
     {
-        min = arr[i];
-    }
-    else if(arr[i] > max)
-    {
-        max = arr[i];
+        // задаем двумерный массив
+        int[,] array = new int[,]
+        {
+            { 1, 2, 3 },
+            { 4, 5, 6 },
+            { 7, 8, 9 }
+        };
+
+        // получаем количество строк и столбцов массива
+        int rows = array.GetLength(0);
+        int columns = array.GetLength(1);
+
+        // проходимся по столбцам и находим среднее арифметическое элементов
+        for (int j = 0; j < columns; j++)
+        {
+            int sum = 0;
+            for (int i = 0; i < rows; i++)
+            {
+                sum += array[i, j];
+            }
+            double average = (double)sum / rows;
+            Console.WriteLine("Среднее арифметическое элементов в столбце " + j + " равно " + average);
+        }
     }
 }
-double diff = max - min;
-Console.WriteLine($"Разница между максимальным и минимальным элементами массива: {diff}");
