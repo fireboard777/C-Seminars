@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar7/Task3/Zadacha1.csproj",
+      "projectUniqueName": "/Users/aleksandrdimitras/C# Seminars/C#Seminars/Seminar9/Task3/Zadacha1.csproj",
       "projectName": "Zadacha1",
-      "projectPath": "/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar7/Task3/Zadacha1.csproj",
+      "projectPath": "/Users/aleksandrdimitras/C# Seminars/C#Seminars/Seminar9/Task3/Zadacha1.csproj",
       "packagesPath": "/Users/aleksandrdimitras/.nuget/packages/",
-      "outputPath": "/Users/aleksandrdimitras/Seminars/C-Seminars/Seminar7/Task3/obj/",
+      "outputPath": "/Users/aleksandrdimitras/C# Seminars/C#Seminars/Seminar9/Task3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/aleksandrdimitras/.nuget/NuGet/NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }

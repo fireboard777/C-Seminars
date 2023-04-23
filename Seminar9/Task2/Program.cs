@@ -2,33 +2,25 @@
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        // задаем двумерный массив
-        int[,] array = new int[,]
+        Console.Write("Введите M: ");
+        int m = int.Parse(Console.ReadLine());
+
+        Console.Write("Введите N: ");
+        int n = int.Parse(Console.ReadLine());
+
+        int sum = SumNaturalNumbers(m, n);
+        Console.WriteLine($"Сумма натуральных чисел в промежутке от {m} до {n} равна {sum}.");
+    }
+
+    static int SumNaturalNumbers(int start, int end)
+    {
+        if (start > end)
         {
-            { 1, 2, 3 },
-            { 4, 5, 6 },
-            { 7, 8, 9 }
-        };
-
-        // просим пользователя ввести позиции элемента
-        Console.Write("Введите номер строки: ");
-        int row = int.Parse(Console.ReadLine());
-
-        Console.Write("Введите номер столбца: ");
-        int column = int.Parse(Console.ReadLine());
-
-        // проверяем, что позиции элемента находятся в допустимых пределах
-        if (row < 0 || row >= array.GetLength(0) || column < 0 || column >= array.GetLength(1))
-        {
-            Console.WriteLine("Указанные позиции находятся за пределами массива.");
+            return 0;
         }
-        else
-        {
-            // получаем значение элемента и выводим его на экран
-            int value = array[row, column];
-            Console.WriteLine("Значение элемента: " + value);
-        }
+
+        return start + SumNaturalNumbers(start + 1, end);
     }
 }

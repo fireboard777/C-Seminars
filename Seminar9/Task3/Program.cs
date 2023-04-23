@@ -2,30 +2,31 @@
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        // задаем двумерный массив
-        int[,] array = new int[,]
-        {
-            { 1, 2, 3 },
-            { 4, 5, 6 },
-            { 7, 8, 9 }
-        };
+        Console.Write("Введите m: ");
+        int m = int.Parse(Console.ReadLine());
 
-        // получаем количество строк и столбцов массива
-        int rows = array.GetLength(0);
-        int columns = array.GetLength(1);
+        Console.Write("Введите n: ");
+        int n = int.Parse(Console.ReadLine());
 
-        // проходимся по столбцам и находим среднее арифметическое элементов
-        for (int j = 0; j < columns; j++)
+        int result = Ackermann(m, n);
+        Console.WriteLine($"Результат функции Аккермана для m = {m} и n = {n} равен {result}.");
+    }
+
+    static int Ackermann(int m, int n)
+    {
+        if (m == 0)
         {
-            int sum = 0;
-            for (int i = 0; i < rows; i++)
-            {
-                sum += array[i, j];
-            }
-            double average = (double)sum / rows;
-            Console.WriteLine("Среднее арифметическое элементов в столбце " + j + " равно " + average);
+            return n + 1;
+        }
+        else if (n == 0)
+        {
+            return Ackermann(m - 1, 1);
+        }
+        else
+        {
+            return Ackermann(m - 1, Ackermann(m, n - 1));
         }
     }
 }

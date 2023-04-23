@@ -2,32 +2,30 @@
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        int m = 3; // количество строк
-        int n = 4; // количество столбцов
+        Console.Write("Введите M: ");
+        int m = int.Parse(Console.ReadLine());
 
-        double[,] array = new double[m, n];
+        Console.Write("Введите N: ");
+        int n = int.Parse(Console.ReadLine());
 
-        // заполнение массива случайными числами
-        Random rnd = new Random();
-        for (int i = 0; i < m; i++)
+        Console.WriteLine($"Чётные числа в промежутке от {m} до {n}:");
+        PrintEvenNumbers(m, n);
+    }
+
+    static void PrintEvenNumbers(int start, int end)
+    {
+        if (start > end)
         {
-            for (int j = 0; j < n; j++)
-            {
-                array[i, j] = rnd.NextDouble();
-            }
+            return;
         }
 
-        // вывод массива на экран
-        for (int i = 0; i < m; i++)
+        if (start % 2 == 0)
         {
-            for (int j = 0; j < n; j++)
-            {
-                Console.Write(array[i, j] + " ");
-            }
-            Console.WriteLine();
+            Console.Write(start + " ");
         }
+
+        PrintEvenNumbers(start + 1, end);
     }
 }
-
